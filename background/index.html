@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <title>青软学院</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/index.css"/>
+    <link rel="stylesheet" href="css/animate.css"/>
+    <!-- 旋转轮播图 -->
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/revolve.css" />
+    <script src='js/myPackage.js'></script>
+</head>
+<body>
+    <audio src="sound/远走高飞.mp3" hidden="true" autoplay="true" loop="true">  <!-- 音乐可循环播放 -->
+    </audio>
+<!--导航-->
+<nav class="navbar navbar-default navbar-fixed-top" id='nav'>
+    <div class="container">
+        <!--小屏幕导航按钮和logo-->
+        <div class="navbar-header">
+            <!-- 面包屑 -->
+            <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <!-- 面包屑 -->
+            <a href="index.html" class="navbar-brand animated rollIn">
+                <img src="images/it.jpg" class="it" alt="">
+                <span>青软学院</span>
+            </a>
+        </div>
+        <!--小屏幕导航按钮和logo-->
+        <!--导航条-->
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#home">首页</a></li>
+                <li><a href="background_home.html">后台管理</a></li>
+                <li><a href="#bbs">论坛</a></li>
+                <li><a href="#html5">前端开发</a></li>
+                <li><a href="#course">最新课程</a></li>
+                <li><a href="#app">移动APP</a></li>
+                <li><a href="#contact">联系我们</a></li>
+            </ul>
+        </div>
+        <!--导航条-->
+    </div>
+</nav>
+<!--导航-->
+
+<!-- 旋转轮播图 -->
+    <div id="outer">
+            <div id='box' class='box'>
+                <div id='silde' class='slide'>
+                    <!--5张轮播图-->
+                    <ul>
+                        <li><a href="#"><img src="images/1.jpg" alt="" /></a></li>
+                        <li><a href="#"><img src="images/2.jpg" alt="" /></a></li>
+                        <li><a href="#"><img src="images/3.jpg" alt="" /></a></li>
+                        <li><a href="#"><img src="images/4.jpg" alt="" /></a></li>
+                        <li><a href="#"><img src="images/5.jpg" alt="" /></a></li>
+                    </ul>
+                    <!--左右切换按钮-->
+                    <div id='arrow' class='arrow'>
+                        <a href="#" class='prev'></a>
+                        <a href="#" class='next'></a>
+                    </div>
+                </div>
+                <h2 style="font-weight:bold">青软实训，欢迎你！</h2>
+            </div>
+        </div>
+<!-- 旋转轮播图 -->
+
+<!--home-->
+<section id="home">
+    <div class="lvjing">
+        <div class="container">
+            <div class="row wow zoomIn" data-wow-duration="1s" data-wow-delay="0.5s">
+                <div class="col-md-1"></div>
+                <div class="col-md-10">
+                    <h1>bootstrap实战课程等你来战！</h1>
+                    <p>
+                        本套课程适用于：1.WEB开发人员；2.网站维护人员、管理人员<br/>
+                        培训技能的目标：使用bootstrap框架快速构建响应式网页，颠覆传统WEB前端！
+                    </p>
+                    <img src="images/baidu.jpg" class="img-responsive" alt="baidu"/>
+                </div>
+                <div class="col-md-1"></div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--home-->
+
+<!--bbs-->
+<section id="bbs">
+    <div class="container">
+        <div class="row wow fadeInUp" data-wow-duration="1.5s">
+            <div class="col-md-4">
+                <a href="#" target="_blank">
+                    <img src="images/a.png" class="img-responsive center-block" alt=""/>
+                    <h3>网页开发</h3>
+                    <p>PC端开发技术交流、问题求助、实战案例分享</p>
+                </a>
+            </div>
+            <div class="col-md-4">
+                <a href="#" target="_blank">
+                    <img src="images/i.png" class="img-responsive center-block" alt=""/>
+                    <h3>移动开发</h3>
+                    <p>移动开发技术交流，实战分享</p>
+                </a>
+            </div>
+            <div class="col-md-4">
+                <a href="#" target="_blank">
+                    <img src="images/b.png" class="img-responsive center-block" alt=""/>
+                    <h3>后台管理页面开发</h3>
+                    <p>底层嵌入式开发、实战案例等技术交流讨论</p>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+<!--bbs-->
+
+<!--html5-->
+<section id="html5">
+    <div class="container">
+        <div class="col-md-6 wow fadeInLeft">
+            <h2>HTML5前端开发</h2>
+            <p>一线资深前端开发工程师倾情打造！助你完成普通程序员到优秀工程师的华丽升级！</p>
+            <p><span class="glyphicon glyphicon-grain"></span>&nbsp;使用HTML5与CSS3技术轻松实现设备自适应展示。</p>
+            <p><span class="glyphicon glyphicon-grain"></span>&nbsp;清晰明了的语义代码结构，更高的可读性、更利于页面维护的。</p>
+        </div>
+        <div class="col-md-6 wow fadeInRight">
+            <img src="images/html5.jpg" class="img-responsive" alt=""/>
+        </div>
+    </div>
+</section>
+<!--html5-->
+
+<!--bootstrap-->
+<section id="bootstrap">
+    <div class="container wow fadeInUp">
+        <div class="col-md-6">
+            <img src="images/Bootstrap.jpg" class="img-responsive" alt=""/>
+        </div>
+        <div class="col-md-6">
+            <h2>bootstrap实战视频教程</h2>
+            <p>Bootstrap 是最受欢迎的 HTML、CSS 和 JS 框架，用于开发响应式布局、移动设备优先的 WEB 项目。</p>
+            <p><span class="glyphicon glyphicon-grain mai-icon"></span>你的网站和应用能在 Bootstrap 的帮助下通过同一份代码快速、有效适配手机、平板、PC 设备。</p>
+            <p><span class="glyphicon glyphicon-grain mai-icon"></span>Bootstrap 提供了全面、美观的文档。你能在这里找到关于 HTML 元素、HTML 和 CSS 组件、jQuery 插件方面的所有详细文档。</p>
+        </div>
+    </div>
+</section>
+<!--bootstrap-->
+
+<!--course-->
+<section id="course">
+    <div class="container">
+        <div class="row wow bounceInLeft" data-wow-duration="2s">
+            <div class="col-md-12">
+                <h2>最新课程</h2>
+            </div>
+            <div class="col-md-3">
+                <div class="course">
+                    <img src="images/swift1.jpg" class="img-responsive" alt=""/>
+                    <a href="#" class="btn btn-primary" target="_blank" role="button">
+                        加入学习
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="course">
+                    <img src="images/swift2.jpg" class="img-responsive" alt=""/>
+                    <a href="#" class="btn btn-primary" target="_blank" role="button">
+                        加入学习
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="course">
+                    <img src="images/swift3.jpg" class="img-responsive" alt=""/>
+                    <a href="#" class="btn btn-primary" target="_blank" role="button">
+                        加入学习
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="course">
+                    <img src="images/swift4.jpg" class="img-responsive" alt=""/>
+                    <a href="#" class="btn btn-primary" target="_blank" role="button">
+                        加入学习
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="course">
+                    <img src="images/swift5.jpg" class="img-responsive" alt=""/>
+                    <a href="#" class="btn btn-primary" target="_blank" role="button">
+                        加入学习
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="course">
+                    <img src="images/swift6.jpg" class="img-responsive" alt=""/>
+                    <a href="#" class="btn btn-primary" target="_blank" role="button">
+                        加入学习
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="course">
+                    <img src="images/swift7.jpg" class="img-responsive" alt=""/>
+                    <a href="#" class="btn btn-primary" target="_blank" role="button">
+                        加入学习
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="course">
+                    <img src="images/swift8.jpg" class="img-responsive" alt=""/>
+                    <a href=""":""," class="btn btn-primary" target="_blank" role="button">
+                        加入学习
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--course-->
+
+<!--app-->
+<section id="app">
+    <div class="container">
+        <div class="row  wow fadeInUp">
+            <div class="col-md-6">
+                <h2>青软学院移动APP下载</h2>
+                <p>
+                    全新UI交互，与新网站数据同步，更加丰富的课程，开启精彩无限，语音搜索课程，喊出你想要的课程，一件收藏，方便自己重复学习，离线下载课程，在哪儿都能开！
+                </p>
+                <button class="btn btn-primary">
+                    <span class="glyphicon glyphicon-download-alt"></span>
+                    iPhone版
+                </button>
+                <button class="btn btn-primary">
+                    <span class="glyphicon glyphicon-download-alt"></span>
+                    Android版
+                </button>
+            </div>
+            <div class="col-md-6">
+                <img src="images/app-banner.jpg" class="img-responsive" alt=""/>
+            </div>
+        </div>
+    </div>
+</section>
+<!--app-->
+
+<!--contact-->
+<section id="contact">
+    <div class="lvjing">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6  wow fadeInLeft">
+                    <h2>
+                        <span class="glyphicon glyphicon-send"></span>
+                        &nbsp;
+                        联系青软
+                    </h2>
+                    <p>
+                        清软学院是一家IT在线教育平台，目前已有30万注册用户，10万以上APP下载量，5000小时视频内容。 我们从不说空话，专注于IT在线教育，脱离传统教育的束缚，让你走哪学哪，想学就学。逗比的老师，贴心的助教，在这儿你能感受到来自五 湖四海伙伴们热情和踏实的学习态度！
+                    </p>
+                    <address>
+                        <p>
+                            <span class="glyphicon glyphicon-home"></span>
+                            &nbsp;
+                            地址:江苏省如皋市
+                        </p>
+                        <p>
+                            <span class="glyphicon glyphicon-phone-alt"></span>
+                            &nbsp;
+                            联系电话：123456790
+                        </p>
+                        <p>
+                            <span class="glyphicon glyphicon-envelope"></span>
+                            &nbsp;
+                            邮箱:hr@qingruan.com
+                        </p>
+                    </address>
+                </div>
+                <div class="col-md-6  wow fadeInRight">
+                    <form action="#" method="post">
+                        <div class="col-md-6">
+                            <input type="text" class="form-control" placeholder="您的姓名"/>
+                        </div>
+                        <div class="col-md-6">
+                            <input type="email" class="form-control" placeholder="您的邮箱"/>
+                        </div>
+                        <div class="col-md-12">
+                            <input type="text" class="form-control" placeholder="标题"/>
+                        </div>
+                        <div class="col-md-12">
+                            <textarea class="form-control" placeholder="留言内容" rows="4"></textarea>
+                        </div>
+                        <div class="col-md-8">
+                            <input type="submit" class="form-control" value="提交"/>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--contact-->
+
+<!--footer-->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <p>
+                    Copyright&nbsp;©&nbsp;2012-2015&nbsp;&nbsp;&nbsp;&nbsp;ICP备xxxxxxx号-
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+<!--footer-->
+
+
+<script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/wow.min.js"></script>
+<script>
+    //旋转轮播图 
+    var arr = [
+            { //---1
+                width:400,
+                top:70,
+                left:50,
+                opacity:20,
+                zIndex:2
+            },
+            { //---2
+                width:600,
+                top:120,
+                left:0,
+                opacity:80,
+                zIndex:3
+            },
+            { //---3
+                width:800,
+                top:100,
+                left:200,
+                opacity:100,
+                zIndex:4
+            },
+            { //---4
+                width:600,
+                top:120,
+                left:600,
+                opacity:80,
+                zIndex:3
+            },
+            { //---5
+                width:400,
+                top:70,
+                left:750,
+                opacity:20,
+                zIndex:2
+            }   
+        ]
+        //---定位
+            //---每张图片必须要有width/height/top/left/opacity/zIndex属性
+        //--有5个坑，坑是定的，图片是跳坑
+        //---定时器调用，正向--把最后一张图片的位置给了第一张
+                   // 反向--把最后一张图片的位置给了第一张
+                   
+            //---有位置的变动--animate();
+        //1、函数分配定位
+        
+        var slide = document.getElementById('silde');
+        var liArr = slide.getElementsByTagName('li');
+        var arrow = slide.children[1];
+        var arrowChilren = arrow.children;
+        var flag = true;//---代表当前的事件已经执行完毕
+
+
+        //---判断正向反向
+        //---因为图片有延迟，运行过程中，再次点击无效，当前事件执行完毕后才能调用下一个事件
+        function automove(bool){ //---bool代表方向，true--向左，false--向右
+            if(bool===true||bool===false){
+                if(bool){ //---向左
+                    arr.unshift(arr.pop());//---最后一张删除，放到数组头部
+                }else{
+                    arr.push(arr.shift());
+                }
+            };
+            //---图片位置发生变化，新的值，就是目标值，
+            for(var i=0;i<liArr.length;i++){
+                animate(liArr[i],arr[i],function(){
+                    //---判断一个事件有没有执行完毕
+                    flag = true;
+                })
+            }
+        }
+        //---加载函数
+        automove(true);
+        
+        //---自动运动
+        var timer = setInterval(function(){
+            //---判断当前的事件有没有执行完
+            if(flag){
+                automove(true);//---默认向左
+            }
+        },3000);
+        
+        //---左右按钮
+        arrowChilren[0].onclick = function(){
+            //---判断当前的事件有没有执行完
+            if(flag){
+                flag = false;//---表示事件还没有结束
+                automove(true);//---默认向左
+            }
+        }
+        arrowChilren[1].onclick = function(){
+            //---判断当前的事件有没有执行完
+            if(flag){
+                flag = false;//---表示事件还没有结束
+                automove(false);//---默认向右
+            }
+        }
+        //---鼠标悬停
+        slide.onmouseover =function(){
+            clearInterval(timer);
+        }
+        slide.onmouseout = function(){
+            timer = setInterval(function(){
+                if(flag){
+                    automove(true);//---默认向左
+                }
+            },2000);
+        }
+
+    // 动画效果 
+    $(function(){
+        new WOW().init();
+    })
+
+    window.onload = function(){
+    //---文档加载完调用getRem()
+        getRem(1420,100)      
+	 /*720代表设计师给的设计稿的宽度，你的设计稿是多少，就写多少;100代表换算比例，这里写100是
+	      为了以后好算,比如，你测量的一个宽度是100px,就可以写为1rem,以及1px=0.01rem等等*/
+    };
+    window.onresize = function(){
+    //---窗口或框架被调整大小发生变化
+        getRem(1420,100)
+    };
+    function getRem(pwidth,prem){
+    	//---pwidth---UI图的宽度
+    	//---prem--自己设置的换算比例
+    	//获取html元素
+        var html = document.getElementsByTagName("html")[0];
+        //屏幕的宽度（兼容处理）
+        var ScreenWidth = document.body.clientWidth || document.documentElement.clientWidth;
+        html.style.fontSize = ScreenWidth/pwidth*prem + "px";
+    }
+</script>
+</body>
+</html>
